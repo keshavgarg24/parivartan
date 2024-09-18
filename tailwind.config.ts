@@ -21,14 +21,16 @@ module.exports = withUt({
       colors: {
         primary: {
           500: '#624CF5',
-          50: ' #F6F8FD',
+          50: '#F6F8FD',
           DEFAULT: '#624CF5',
           foreground: 'hsl(var(--primary-foreground))',
         },
         coral: {
           500: '#15BF59',
         },
-
+        cherry: {
+          DEFAULT: '#CF000F', // Cherry red color
+        },
         grey: {
           600: '#545454', // Subdued - color name in figma
           500: '#757575',
